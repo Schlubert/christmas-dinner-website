@@ -60,7 +60,7 @@ function App() {
     <div className="app">
       {/* Logo - Fixed Position */}
       <div className="nav-logo" onClick={() => setCurrentPage('home')} style={{cursor: 'pointer'}}>
-        <img src="/logo.png" alt="Christmas in Dunedin Logo" className="logo-image" />
+        <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Christmas in Dunedin Logo" className="logo-image" />
       </div>
 
       {/* Countdown - Fixed Position */}

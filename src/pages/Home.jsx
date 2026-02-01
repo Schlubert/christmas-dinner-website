@@ -5,14 +5,14 @@ const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const heroImages = [
-    '/hero-1.jpg',
-    '/hero-2.jpg',
-    '/hero-3.jpg',
-    '/hero-4.jpg',
-    '/hero-5.jpg',
-    '/hero-6.jpg',
-    '/hero-7.jpg'
-  ];
+  `${process.env.PUBLIC_URL}/hero-1.jpg`,
+  `${process.env.PUBLIC_URL}/hero-2.jpg`,
+  `${process.env.PUBLIC_URL}/hero-3.jpg`,
+  `${process.env.PUBLIC_URL}/hero-4.jpg`,
+  `${process.env.PUBLIC_URL}/hero-5.jpg`,
+  `${process.env.PUBLIC_URL}/hero-6.jpg`,
+  `${process.env.PUBLIC_URL}/hero-7.jpg`
+];
 
   // Auto-advance carousel every 5 seconds
   useEffect(() => {
@@ -184,43 +184,43 @@ const Home = () => {
       </section>
 
       {/* Stories Section */}
-      <section className="stories-section">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title fade-in">Community Stories</h2>
-            <p className="section-subtitle fade-in">Hear from those who make our dinner special</p>
-          </div>
-          
-          <div className="stories-grid">
-            <div className="story-card fade-in stagger-1">
-              <div className="story-image" style={{backgroundImage: 'url(/maria.jpg)'}}></div>
-              <div className="story-content">
-                <h3>Maria's Story</h3>
-                <p className="story-role">Volunteer Chef • 8 Years</p>
-                <p>"Cooking for hundreds on Christmas Day fills my heart with joy. It's the best gift I could give."</p>
-              </div>
-            </div>
-
-            <div className="story-card fade-in stagger-2">
-              <div className="story-image" style={{backgroundImage: 'url(/singh.jpg)'}}></div>
-              <div className="story-content">
-                <h3>The Singh Family</h3>
-                <p className="story-role">Attendees • Since 2019</p>
-                <p>"This dinner brought us together when we needed community most. Now it's our family tradition."</p>
-              </div>
-            </div>
-
-            <div className="story-card fade-in stagger-3">
-              <div className="story-image" style={{backgroundImage: 'url(/david.jpg)'}}></div>
-              <div className="story-content">
-                <h3>David's Journey</h3>
-                <p className="story-role">From Guest to Volunteer Leader</p>
-                <p>"I came as a guest five years ago. Now I coordinate 50 volunteers. This place changed my life."</p>
-              </div>
-            </div>
-          </div>
+     <section className="stories-section">
+  <div className="container">
+    <div className="section-header">
+      <h2 className="section-title fade-in">Community Stories</h2>
+      <p className="section-subtitle fade-in">Hear from those who make our dinner special</p>
+    </div>
+    
+    <div className="stories-grid">
+      <div className="story-card fade-in stagger-1">
+        <div className="story-image" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/maria.jpg)`}}></div>
+        <div className="story-content">
+          <h3>Maria's Story</h3>
+          <p className="story-role">Volunteer Chef • 8 Years</p>
+          <p>"Cooking for hundreds on Christmas Day fills my heart with joy. It's the best gift I could give."</p>
         </div>
-      </section>
+      </div>
+
+      <div className="story-card fade-in stagger-2">
+        <div className="story-image" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/singh.jpg)`}}></div>
+        <div className="story-content">
+          <h3>The Singh Family</h3>
+          <p className="story-role">Attendees • Since 2019</p>
+          <p>"This dinner brought us together when we needed community most. Now it's our family tradition."</p>
+        </div>
+      </div>
+
+      <div className="story-card fade-in stagger-3">
+        <div className="story-image" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/david.jpg)`}}></div>
+        <div className="story-content">
+          <h3>David's Journey</h3>
+          <p className="story-role">From Guest to Volunteer Leader</p>
+          <p>"I came as a guest five years ago. Now I coordinate 50 volunteers. This place changed my life."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="footer">

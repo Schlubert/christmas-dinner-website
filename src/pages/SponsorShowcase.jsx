@@ -10,7 +10,7 @@ const SponsorShowcase = () => {
     { 
       id: 1, 
       name: 'Dunedin City Council', 
-      logo: '/sponsors/dcc.png', 
+      logo: `${process.env.PUBLIC_URL}/sponsors/dcc.png`, 
       since: 2023, 
       contribution: 'Financial support through grants and the Mayoral Fund',
       amount: '$15,000 annually',
@@ -19,7 +19,7 @@ const SponsorShowcase = () => {
     { 
       id: 2, 
       name: 'Otago Community Trust', 
-      logo: '/sponsors/oct.png', 
+      logo: `${process.env.PUBLIC_URL}/sponsors/oct.png`, 
       since: 2015, 
       contribution: 'Grant Funding',
       amount: '$12,000 annually',
@@ -28,7 +28,7 @@ const SponsorShowcase = () => {
     { 
       id: 3, 
       name: 'Lion Foundation', 
-      logo: '/sponsors/lion.png', 
+      logo: `${process.env.PUBLIC_URL}/sponsors/lion.png`, 
       since: 2018, 
       contribution: 'Event Funding',
       amount: '$8,000 annually',
@@ -41,7 +41,7 @@ const SponsorShowcase = () => {
     { 
       id: 4, 
       name: 'Alsco', 
-      logo: '/sponsors/alsco.png', 
+      logo: `${process.env.PUBLIC_URL}/sponsors/alsco.png`, 
       since: 2012,
       contribution: 'All the linen services',
       details: 'Providing all the tables cloths, napkins, and kitchen towels',
@@ -50,7 +50,7 @@ const SponsorShowcase = () => {
     { 
       id: 5, 
       name: 'DB Breweries', 
-      logo: '/sponsors/speights.png', 
+      logo: `${process.env.PUBLIC_URL}/sponsors/speights.png`, 
       since: 2014,
       contribution: 'Beverages',
       details: 'Soft drinks and water for all guests',
@@ -59,7 +59,7 @@ const SponsorShowcase = () => {
     { 
       id: 6, 
       name: 'Scenic Hotel Group', 
-      logo: '/sponsors/scenic.png', 
+      logo: `${process.env.PUBLIC_URL}/sponsors/scenic.png`, 
       since: 2016,
       contribution: 'All Linen',
       details: 'Tablecloths, napkins, and table decorations',
@@ -68,7 +68,7 @@ const SponsorShowcase = () => {
     { 
       id: 7, 
       name: 'Mainland Products', 
-      logo: '/sponsors/mainland.png', 
+      logo: `${process.env.PUBLIC_URL}/sponsors/mainland.png`, 
       since: 2019,
       contribution: 'Dairy Products',
       details: 'Cheese, butter, and cream',
@@ -77,7 +77,7 @@ const SponsorShowcase = () => {
     { 
       id: 8, 
       name: 'T&G Fresh', 
-      logo: '/sponsors/tg-fresh.png', 
+      logo: `${process.env.PUBLIC_URL}/sponsors/tg-fresh.png`, 
       since: 2020,
       contribution: 'Fresh Fruit',
       details: 'Seasonal fruit for desserts',
