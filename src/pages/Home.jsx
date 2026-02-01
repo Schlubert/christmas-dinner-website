@@ -70,7 +70,7 @@ const Home = () => {
         <div className="hero-content container fade-in">
 
           <h1 className="hero-title stagger-2 fade-in">
-            A Community 
+            A Commmunity 
             <span className="title-highlight"> Celebration</span>
             <br />
             for Everyone
