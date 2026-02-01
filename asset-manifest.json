@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b41a4c05.css",
-    "main.js": "/static/js/main.2ea27394.js",
-    "static/js/453.386d707b.chunk.js": "/static/js/453.386d707b.chunk.js",
-    "index.html": "/index.html",
-    "main.b41a4c05.css.map": "/static/css/main.b41a4c05.css.map",
-    "main.2ea27394.js.map": "/static/js/main.2ea27394.js.map",
-    "453.386d707b.chunk.js.map": "/static/js/453.386d707b.chunk.js.map"
+    "main.css": "/christmas-dinner-website/static/css/main.b41a4c05.css",
+    "main.js": "/christmas-dinner-website/static/js/main.a532219b.js",
+    "static/js/453.386d707b.chunk.js": "/christmas-dinner-website/static/js/453.386d707b.chunk.js",
+    "index.html": "/christmas-dinner-website/index.html",
+    "main.b41a4c05.css.map": "/christmas-dinner-website/static/css/main.b41a4c05.css.map",
+    "main.a532219b.js.map": "/christmas-dinner-website/static/js/main.a532219b.js.map",
+    "453.386d707b.chunk.js.map": "/christmas-dinner-website/static/js/453.386d707b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b41a4c05.css",
-    "static/js/main.2ea27394.js"
+    "static/js/main.a532219b.js"
   ]
 }
