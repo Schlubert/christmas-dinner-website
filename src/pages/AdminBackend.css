@@ -660,17 +660,19 @@
 
 .shifts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: var(--space-lg);
 }
 
 .shift-card {
   background: var(--soft-white);
-  padding: var(--space-lg);
+  padding: var(--space-sm);
   border-radius: 20px;
   box-shadow: var(--shadow-sm);
   border: 2px solid transparent;
   transition: all var(--transition-base);
+  display: flex;
+  flex-direction: column;
 }
 
 .shift-card:hover {
@@ -692,9 +694,10 @@
 }
 
 .status-indicator {
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
+  margin-left: 12px;
 }
 
 .status-indicator.good {
@@ -711,7 +714,7 @@
 
 .shift-card-time {
   color: var(--text-gray);
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-sm);
   font-weight: 600;
 }
 
@@ -719,10 +722,13 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--space-md);
-  margin-bottom: var(--space-lg);
-  padding: var(--space-md);
+  margin-top: auto;
+  margin-bottom: var(--space-md);
+  padding: var(--space-sm);
   background: var(--warm-cream);
   border-radius: 12px;
+  text-align: center;
+  justify-items: center;
 }
 
 .shift-stat {

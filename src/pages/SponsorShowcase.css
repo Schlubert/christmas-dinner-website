@@ -923,6 +923,16 @@
   width: 100%;
   justify-content: center;
 }
+.btn-notify {
+  background: var(--accent-green);
+  color: var(--soft-white);
+  padding: var(--space-md) var(--space-sm);
+  font-size: 1rem;
+}
+.btn-notify:hover {
+  background: var(--accent-gold);
+  color: var(--primary-dark);
+}
 
 .cta-contact {
   text-align: center;

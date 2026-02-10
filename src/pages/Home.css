@@ -693,7 +693,28 @@
 }
 
 .footer-section ul li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
   margin-bottom: var(--space-sm);
+}
+
+.footer-section ul li svg {
+  font-size: 1.25rem;
+  flex-shrink: 0;           /* Stops icon squishing */
+}
+
+/* Individual icon colours */
+.footer-section ul li:nth-child(1) svg {
+  color: var(--accent-gold); /* Email - gold */
+}
+
+.footer-section ul li:nth-child(2) svg {
+  color: #1877F2;            /* Facebook blue */
+}
+
+.footer-section ul li:nth-child(3) svg {
+  color: var(--accent-red);  /* Pin - red */
 }
 
 .footer-section a {

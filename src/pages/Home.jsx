@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css';
+import { MdEmail, MdLocationPin } from 'react-icons/md';
+import { FaFacebook } from 'react-icons/fa';
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const heroImages = [
-  `${process.env.PUBLIC_URL}/hero-1.jpg`,
-  `${process.env.PUBLIC_URL}/hero-2.jpg`,
-  `${process.env.PUBLIC_URL}/hero-3.jpg`,
-  `${process.env.PUBLIC_URL}/hero-4.jpg`,
-  `${process.env.PUBLIC_URL}/hero-5.jpg`,
-  `${process.env.PUBLIC_URL}/hero-6.jpg`,
-  `${process.env.PUBLIC_URL}/hero-7.jpg`
+  `${process.env.PUBLIC_URL}/hero-1.JPG`,
+  `${process.env.PUBLIC_URL}/hero-2.JPG`,
+  `${process.env.PUBLIC_URL}/hero-3.JPG`,
+  `${process.env.PUBLIC_URL}/hero-4.JPG`,
+  `${process.env.PUBLIC_URL}/hero-5.JPG`,
+  `${process.env.PUBLIC_URL}/hero-6.JPG`,
+  `${process.env.PUBLIC_URL}/hero-7.JPG`
 ];
 
   // Auto-advance carousel every 5 seconds
@@ -70,7 +72,7 @@ const Home = () => {
         <div className="hero-content container fade-in">
 
           <h1 className="hero-title stagger-2 fade-in">
-            A Commmunity 
+            A Community 
             <span className="title-highlight"> Celebration</span>
             <br />
             for Everyone
@@ -178,7 +180,7 @@ const Home = () => {
             </div>
             <h2>Can't Join Us in Person?</h2>
             <p>Watch our live stream on Christmas Day and be part of the celebration from anywhere in the world</p>
-            <button className="btn-secondary">Get Notified</button>
+            <button className="btn-notify">Get Notified</button>
           </div>
         </div>
       </section>
@@ -243,9 +245,15 @@ const Home = () => {
             <div className="footer-section">
               <h3>Get in Touch</h3>
               <ul>
-                <li>📧 info@christmas.org.nz</li>
-                <li>📱 Facebook: @DunedinChristmasDinner</li>
-                <li>📍 Dunedin Town Hall</li>
+                <li>
+                  <MdEmail /> info@christmas.org.nz
+                </li>
+                <li>
+                  <FaFacebook /> @DunedinChristmasDinner
+                </li>
+                <li>
+                  <MdLocationPin /> Dunedin Town Hall
+                </li>
               </ul>
             </div>
             <div className="footer-section">

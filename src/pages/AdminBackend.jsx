@@ -24,7 +24,11 @@ const AdminBackend = () => {
   const upcomingShifts = [
     { id: 1, shift: 'Morning Setup', time: '8:00am - 11:00am', assigned: 45, needed: 50, status: 'warning' },
     { id: 2, shift: 'Service Time', time: '11:00am - 2:00pm', assigned: 87, needed: 80, status: 'good' },
-    { id: 3, shift: 'Cleanup', time: '2:00pm - 5:00pm', assigned: 28, needed: 40, status: 'critical' }
+    { id: 3, shift: 'Cleanup', time: '2:00pm - 5:00pm', assigned: 28, needed: 40, status: 'critical' },
+    { id: 4, shift: 'Kitchen prep day 1', time: '7:00am - 2:00pm', assigned: 15, needed: 20, status: 'warning' },
+    { id: 5, shift: 'Kitchen prep day 2', time: '7:00am - 2:00pm', assigned: 10, needed: 20, status: 'critical' },
+    { id: 6, shift: 'et cetera', time: '11:00am - 2:00pm', assigned: 5, needed: 10, status: 'good' },
+    { id: 7, shift: 'et cetera', time: '11:00am - 2:00pm', assigned: 5, needed: 10, status: 'good' }
   ];
 
   const tasks = [
